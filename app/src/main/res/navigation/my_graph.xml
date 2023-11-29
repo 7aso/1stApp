@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/fragmentAndroid">
+
+    <fragment
+        android:id="@+id/fragmentAlarm"
+        android:name="com.example.fragment.FragmentAlarm"
+        android:label="Alarm"
+        tools:layout="@layout/fragment_alarm" />
+
+    <fragment
+        android:id="@+id/fragmentWeather"
+        android:name="com.example.fragment.FragmentWeather"
+        android:label="Weather"
+        tools:layout="@layout/fragment_weather" />
+
+    <fragment
+        android:id="@+id/fragmentAndroid"
+        android:name="com.example.fragment.FragmentAndroid"
+        android:label="Android"
+        tools:layout="@layout/fragment_android" />
+</navigation>
